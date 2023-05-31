@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPFMVVMTutorial.ViewModel;
 
 namespace WPFMVVMTutorial
 {
@@ -20,9 +21,14 @@ namespace WPFMVVMTutorial
     /// </summary>
     public partial class MainWindow : Window
     {
+        private readonly MainWindowViewModel viewModel;
         public MainWindow()
         {
             InitializeComponent();
+            viewModel = new MainWindowViewModel();
+            this.DataContext = viewModel;
         }
+
+      
     }
 }
