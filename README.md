@@ -22,6 +22,8 @@ To get started with the tutorial, follow these steps:
 2. Open the solution file in your preferred IDE or editor.
 3. Navigate to the tutorial files located in the respective folders (Model, ViewModel, View).
 4. Follow the instructions provided in the tutorial files to understand and implement the MVVM pattern.
+5. See Wiki
+
 
 ## Requirements
 
