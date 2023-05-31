@@ -1,5 +1,3 @@
-# WPFMVVMTutorial
-WPFMVVMTutorial
 # WPF MVVM Tutorial
 
 This repository contains code and resources for a WPF MVVM (Model-View-ViewModel) tutorial. The tutorial aims to guide you through the process of building a WPF application using the MVVM architectural pattern.
@@ -12,7 +10,7 @@ The tutorial covers the following topics:
 2. Creating the Model, ViewModel, and View folders.
 3. Implementing the ViewModelBase class as a base for other ViewModels.
 4. Data binding between ViewModels and Views.
-5. Command implementation using the RelayCommand class.
+5. Command implementation using the ICommand class.
 6. Handling user input and updating the ViewModel.
 7. Updating the View based on ViewModel changes using INotifyPropertyChanged.
 
@@ -29,8 +27,8 @@ To get started with the tutorial, follow these steps:
 
 To run the code in this tutorial, you will need:
 
-- Visual Studio 2019 (or any other IDE that supports WPF development)
-- .NET Framework 4.7.2 or higher
+- Visual Studio 2017 (or any other IDE that supports WPF development)
+- .NET Framework 4.7.1 or higher
 
 ## Contributions
 
@@ -44,5 +42,4 @@ This tutorial is licensed under the [MIT License](LICENSE).
 
 - [WPF Documentation](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/)
 - [MVVM Pattern Overview](https://en.wikipedia.org/wiki/Model–view–viewmodel)
-- [MVVM Light Toolkit](https://www.mvvmlight.net/)
 
