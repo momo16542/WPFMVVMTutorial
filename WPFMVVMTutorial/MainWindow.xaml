@@ -38,7 +38,10 @@
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition />
                     </Grid.ColumnDefinitions>
-                    <Grid DataContext="{Binding Book}" Row="0">
+                    <Grid
+                        x:Name="BookGrid"
+                        DataContext="{Binding Book}"
+                        Row="0">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto" />
                             <RowDefinition Height="Auto" />
